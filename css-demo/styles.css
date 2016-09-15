@@ -1,0 +1,40 @@
+body {
+    background-color:grey;
+}
+p {
+    color: purple;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: courier;
+    background-color:pink;
+    width:300px;
+    margin: 100px;
+    padding: 40px;
+}
+.special {
+    color: red;
+}
+.was {
+    color:blue;
+
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}

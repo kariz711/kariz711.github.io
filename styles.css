@@ -1,0 +1,26 @@
+
+p {
+    color:black;
+    font-family:courier;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
