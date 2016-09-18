@@ -1,0 +1,39 @@
+
+body {
+    background-color:white;
+}
+p {
+    color:black;
+    font-size:20px;
+    font-family:courier;
+
+}
+
+.question{
+    color:gray;
+    font-size:20px;
+    font-family:courier;
+}
+.indent {
+    margin-left: 100px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}

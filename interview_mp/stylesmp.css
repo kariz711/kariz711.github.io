@@ -1,0 +1,36 @@
+body {
+    background-color:black;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-family: courier;
+}
+.special {
+    font-size: 100px;
+    color:white;
+}
+
+    
+}
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
