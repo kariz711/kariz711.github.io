@@ -2,22 +2,19 @@ body {
     background-image: url(green.jpg);
 }
 p {
-    color: purple;
-    font-size: 60px;
+    font-size: 40px;
+    line-height:48px;
     font-weight: bold;
     font-family: courier;
-    background-color:pink;
     width:300px;
     margin: 100px;
     padding: 40px;
+    animation-name:example;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
-.special {
-    color: red;
-}
-.was {
-    color:blue;
 
-}
 a:link {
     color: black;
     background-color: transparent;
@@ -37,4 +34,70 @@ a:active {
     color: grey;
     background-color: transparent;
     text-decoration: underline;
+
+}
+.clock {
+    width:200px;
+    height:200px;
+    background-color:black;
+    border-radius:100%;
+    position:relative;
+    
+    
+    
+}
+.seconds {
+    width:200px;
+    height:4px;
+    background-color:white;
+    position:absolute;
+    top:98px;
+    animation-duration: 60s;
+    animation-name:myclock;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.button {
+    background-color: blue;
+    height:200px;
+    width:200px;
+    border-radius:100%;
+    transition:background-color 2s;
+    font-family:arial,sans-serif;
+    font-weight:bold;
+    font-size:20px;
+    line-height:200px;
+    color:white;
+    text-align: center;
+    animation-name: example;
+}
+.button:hover {
+    width:300px;
+    height:300px;
+    background-color:red;
+    line-height: 300px;
+    color:white;
+    font-size: 30px;
+}
+    
+    
+@keyframes myclock {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes example {
+    from {
+        color:red;
+    }
+    to {
+        color: blue;
+    }
 }
