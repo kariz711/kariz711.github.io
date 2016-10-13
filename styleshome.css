@@ -1,26 +1,134 @@
-
-p {
-    color:black;
-    font-family:courier;
+body {
+    background:#FC7373;
+    font-family: Helvetica, sans-serif;
+    font-size:0px;
+    margin:0px;
+    
 }
-
 a:link {
-    color: black;
-    background-color: transparent;
     text-decoration: none;
 }
+
 a:visited {
-    color: grey;
-    background-color: transparent;
     text-decoration: none;
 }
+
 a:hover {
-    color: grey;
-    background-color: transparent;
     text-decoration: none;
 }
+
 a:active {
-    color: grey;
-    background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    color:white;
+}
+  
+.z {
+    font-family: Helvetica, sans-serif;
+    font-size: 120px;
+    color:#51E2C4;
+    transition: 10s;
+    letter-spacing: -5px;
+    position: absolute;
+    text-align: right;
+    top:55%;
+    right:10%;
+    
+}
+.z:hover {
+    font-family: Helvetica, sans-serif;
+    font-size: 120px;
+    color:#9DFC57;
+    transition: 5s;
+    letter-spacing: -5px; 
+    position: absolute;
+    text-align: right;
+    top:55%;
+    right:10%;
+
+}
+.sub {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: #9DFC57;
+    transition:5s;
+    position: absolute;
+    top:75%;
+    right:10%;
+    text-align: right;
+    letter-spacing: 1.5px;
+}
+.sub:hover {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: #51E2C4;
+    transition:2s;
+    position: absolute;
+    top:75%;
+    right:10%;
+    text-align: right;
+    letter-spacing: 1.5px;
+}
+.full {
+    position: relative;
+    width:35%;
+    height:40px;
+    font-size:40px;
+    background-color:#9DFC57;
+    transition:0.5s;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color:#FC7373;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+
+    
+}
+.full:hover {
+    position: relative;
+    width:40%;
+    height:40px;
+    font-size:40px;
+    transition: 0.5s;
+    background-color:#51E2C4;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: #FC7373;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 3px;
+}
+
+.full2 {
+    position: relative;
+    width:35%;
+    height:40px;
+    font-size:40px;
+    background-color:#9DFC57;
+    transition:0.5s;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: #FC7373;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+}
+.full2:hover {
+    position: relative;
+    width:40%;
+    height:40px;
+    font-size:40px;
+    transition: 0.5s;
+    background-color:#51E2C4;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: #FC7373;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 3px;
 }
