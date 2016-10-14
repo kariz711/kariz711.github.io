@@ -1,0 +1,11 @@
+body {
+    background-color:white;
+}
+.stripe {
+    position: fixed;
+    width: 70%;
+    height: 100px;
+    background-color: #86DAFC;
+    top:0px;
+    left:0px;
+}

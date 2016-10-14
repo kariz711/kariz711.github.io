@@ -5,6 +5,21 @@ body {
     margin:0px;
     
 }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 p {
     font-family: Helvetica, sans-serif;
     color:white;
@@ -67,6 +82,9 @@ p {
     color:#FC7373;
     font-weight: bold;
     letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+
 
     
 }
@@ -81,7 +99,10 @@ p {
     color: #FC7373;
     font-weight: bold;
     font-style: oblique;
-    letter-spacing: 3px;
+    letter-spacing: 3px;  
+    padding:10px;
+    margin:10px;
+
 }
 
 .full2 {
@@ -97,6 +118,9 @@ p {
     color: #FC7373;
     font-weight: bold;
     letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+
 
 }
 .full2:hover {
@@ -111,4 +135,8 @@ p {
     font-weight: bold;
     font-style: oblique;
     letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+
 }
+
