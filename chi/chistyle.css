@@ -9,3 +9,34 @@ body {
     top:0px;
     left:0px;
 }
+.full {
+    position: relative;
+    width:35%;
+    height:40px;
+    font-size:40px;
+    background-color:#86DAFC;
+    transition:0.5s;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+
+    
+}
+.full:hover {
+    position: relative;
+    width:40%;
+    height:40px;
+    font-size:40px;
+    transition: 0.5s;
+    background-color:#F04343;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 3px;
+}

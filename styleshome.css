@@ -102,33 +102,3 @@ p {
     font-style: oblique;
     letter-spacing: 3px;
 }
-
-.full2 {
-    position: relative;
-    width:35%;
-    height:40px;
-    font-size:40px;
-    background-color:#9DFC57;
-    transition:0.5s;
-    font-family:Helvetica,sans-serif;
-    text-align: right;
-    color: #FC7373;
-    font-weight: bold;
-    letter-spacing: 3px;
-    padding:10px;
-    margin:10px;
-}
-.full2:hover {
-    position: relative;
-    width:40%;
-    height:40px;
-    font-size:40px;
-    transition: 0.5s;
-    background-color:#51E2C4;
-    font-family:Helvetica,sans-serif;
-    text-align: right;
-    color: #FC7373;
-    font-weight: bold;
-    font-style: oblique;
-    letter-spacing: 3px;
-}

@@ -1,0 +1,149 @@
+body {
+    background-color:black;
+    transition:7s;
+}
+body:hover{
+        background-color: white;
+    transition:7s;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    color:white;
+}
+
+.n {
+    position:relative;
+    font-family: helvetica, sans-serif;
+    color:white;
+    font-size: 20px;
+    transition: 5s;
+    
+}
+.n:hover {
+    font-family: helvetica, sans-serif;
+    color:#F32121;
+    font-size: 20px;
+    transition: 1s;
+}
+
+    
+.full {
+    position: relative;
+    top:45%;
+    width:55%;
+    height:15px;
+    font-size:20px;
+    background-color:#86DAFC;
+    transition:1s;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color:#86DAFC;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+}
+.full:hover {
+    position: relative;
+    width:70%;
+    height:15px;
+    font-size:20px;
+    transition: 1s;
+    background-color:#3EC0E6;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.full2 {
+    position: relative;
+    top:45%;
+    width:55%;
+    height:15px;
+    font-size:20px;
+    background-color:#F04343;
+    transition:1s;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color:#F04343;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding:10px;
+    margin:10px;
+}
+.full2:hover {
+    position: relative;
+    width:70%;
+    height:15px;
+    font-size:20px;
+    transition: 1s;
+    background-color:#F32121;
+    font-family:Helvetica,sans-serif;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+.chicago {
+    font-family: Helvetica, sans-serif;
+    font-size: 225px;
+    color:#F04343;
+    transition: 10s;
+    letter-spacing: -5px;
+    position: absolute;
+    text-align: right;
+    top:55%;
+    right:5%;
+}
+.chicago:hover {
+    font-family: Helvetica, sans-serif;
+    font-size: 225px;
+    color:#F32121;
+    transition: 5s;
+    letter-spacing: -5px; 
+    position: absolute;
+    text-align: right;
+    top:55%;
+    right:5%;
+}
+
+.sub {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: #86DAFC;
+    transition:5s;
+    position: absolute;
+    top:90%;
+    right:6%;
+    text-align: right;
+    letter-spacing: 0px;
+}
+.sub:hover {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: #3EC0E6;
+    transition:2s;
+    position: absolute;
+    top:90%;
+    right:6%;
+    text-align: right;
+    letter-spacing: 0px;
+}
