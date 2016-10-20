@@ -48,11 +48,11 @@ p {
     width:55%;
     height:15px;
     font-size:20px;
-    background-color:#86DAFC;
+    background-color:#87D9F1;
     transition:1s;
     font-family:Helvetica,sans-serif;
     text-align: right;
-    color:#86DAFC;
+    color:#87D9F1;
     font-weight: bold;
     letter-spacing: 3px;
     padding:10px;
@@ -128,7 +128,7 @@ p {
 .sub {
     font-family: Helvetica, sans-serif;
     font-size: 25px;
-    color: #86DAFC;
+    color: #87D9F1;
     transition:5s;
     position: absolute;
     top:90%;
