@@ -1,0 +1,22 @@
+body { 
+    background:#ABF11E;
+
+}
+.text {
+    position:relative;
+    top: 30%;
+    font-family: helvetica, sans-serif;
+    color:#ABF11E;
+    font-size: 200px;
+    transition: 5s;
+    text-align: center;
+    text-overflow: clip;
+    
+    
+}
+.text:hover {
+    font-family: helvetica, sans-serif;
+    color:#53D404;
+    font-size: 200px;
+    transition: 3s;
+}

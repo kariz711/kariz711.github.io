@@ -22,8 +22,20 @@ a:active {
     text-decoration: none;
 }
 p {
+    position: relative;
+    width: 90%;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-family: Helvetica, sans-serif;
-    color:white;
+    color:black;
+    font-size: 20px;
+    padding:10px;
+    margin:10px;
+    column-count: 2;
+    text-align: justify;
+    
+    
 }
 
 .n {
@@ -32,6 +44,9 @@ p {
     color:white;
     font-size: 20px;
     transition: 5s;
+    display: inline-block;
+    text-align: justify;
+    
     
 }
 .n:hover {
@@ -47,6 +62,7 @@ p {
     top:45%;
     width:55%;
     height:15px;
+    line-height: 15px;
     font-size:20px;
     background-color:#87D9F1;
     transition:1s;
@@ -57,6 +73,7 @@ p {
     letter-spacing: 3px;
     padding:10px;
     margin:10px;
+    display: inline-block;
 }
 .full:hover {
     position: relative;
@@ -70,12 +87,12 @@ p {
     color: white;
     font-weight: bold;
     letter-spacing: 3px;
+    display: inline-block;
 }
 .full2 {
-    position: relative;
-    top:45%;
     width:55%;
     height:15px;
+    line-height: 15px;
     font-size:20px;
     background-color:#F04343;
     transition:1s;
@@ -86,6 +103,7 @@ p {
     letter-spacing: 3px;
     padding:10px;
     margin:10px;
+    display: inline-block;
 }
 .full2:hover {
     position: relative;
@@ -99,6 +117,7 @@ p {
     color: white;
     font-weight: bold;
     letter-spacing: 3px;
+    display: inline-block;
 }
 
 
