@@ -1,0 +1,49 @@
+body {
+	font-family: Helvetica;
+	margin: 0;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+.circle {
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #0B10BB;
+	border-radius: 100%;
+	top:20px;
+	left:20px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+	color: #E91919;
+	transform:translate(-50%, -50%);
+	transition: 0.3s;
+}
+.w {
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #E91919;
+	border-radius: 100%;
+	font-size: 50px;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	top:20px;
+	left:20px;
+
+}
+
+.backimg {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
