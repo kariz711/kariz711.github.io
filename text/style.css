@@ -1,0 +1,98 @@
+/*img {
+	position: absolute;
+	align-content: : center;
+	margin: auto;
+	display: block;
+	width: 50%;
+
+}*/
+h1 {
+	font-size: 20px;
+	color: transparent;
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	transition-duration: 3s;
+}
+h1:hover {
+	color: black;
+	opacity: 0.3;
+	text-overflow: hidden;
+}
+h2 {
+	margin-top: 0px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: transparent;
+	font-family: 'Cormorant Garamond', Serif;
+	text-align: right;
+	line-height: 0px;
+	transition-duration: 3s;
+}
+
+h2:hover {
+	color: black;
+	opacity:0.5;
+}
+p {
+	position: relative;
+	margin-left: 100px;
+	margin-top: 200px;
+	line-height: 700px;
+	font-size: 20px;
+	color: black;
+	transition-duration: 40s;
+	font-family: 'Cinzel Decorative', cursive;
+	/*font-family: 'Averia Serif Libre', cursive;*/
+
+}
+p:hover {
+	color: transparent;
+	letter-spacing: 1px;
+}
+
+/*.trump {
+	position: relative;
+	margin-right: 100px;
+	margin-top: 1000px;
+	line-height: 500px;
+	font-size: 20px;
+	text-align: right;
+	color: transparent;
+	font-family: courier, sans-serif;
+}
+.trump:hover {
+	color: black;
+	letter-spacing: 1px;
+}
+
+.censor {
+	left: 599px;
+	top: 380px;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	background: transparent;
+	color: transparent;
+	font-size: 20px;
+	padding: 10px 10px 5px 10px;
+	font-family: courier, sans-serif;
+	position: absolute;
+
+
+}
+.censor:hover {
+	background-color: black;
+	color: white;
+
+}
+
+.shadow: {
+	text-shadow: 3px 4px #EFEFEF;
+	transition-duration: 40
+
+}
+.shadow:hover {
+	text-shadow: 100px 50px transparent;
+}*/
