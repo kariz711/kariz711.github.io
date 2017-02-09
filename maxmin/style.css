@@ -1,0 +1,33 @@
+.s {
+	height: 30px;
+	background-color: #0DF8FF;
+}
+.s:hover {
+	height: 30px;
+	background-color: #85FF20;
+}
+.a {
+	height: 20px;
+	background-color: #0DF8FF;
+}
+.a:hover {
+	height: 50px;
+	background-color: #FF0DF4;
+}
+.b {
+	height: 40px;
+	background-color: #0DF8FF;
+}
+.b:hover {
+	height: 20px;
+	background-color: #FF0DF4;
+}
+.c {
+	height: 30px;
+	background-color: #0DF8FF;
+}
+.c:hover {
+	height: 20px;
+	background-color: #0DD915;
+
+}
