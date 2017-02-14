@@ -36,7 +36,8 @@ h2:hover {
 	opacity:0.5;
 }
 p {
-	position: relative;
+	position: absolute;
+
 	margin-left: 100px;
 	margin-top: 200px;
 	line-height: 700px;
@@ -50,6 +51,21 @@ p {
 p:hover {
 	color: transparent;
 	letter-spacing: 1px;
+}
+.lf {
+	position: absolute;
+	width: 50vw;
+	margin-left: 500px;
+	margin-top: 450px;
+	line-height: 200px;
+	font-size: 20px;
+	color: transparent;
+	transition-duration: 40s;
+	font-family: helvetica, sans-serif;
+	text-align: right;
+}
+.lf:hover {
+	color: black;
 }
 
 /*.trump {
