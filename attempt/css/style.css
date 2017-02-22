@@ -4,32 +4,39 @@ body {
 }
 
 a:hover {
-	color:red;
+	color:blue;
 }
 a:link {
-	color:#A53388;
+	color:transparent;
 	text-decoration: none;
 }
 a:visited {
-	color:#A53388;
+	color:transparent;
 	text-decoration: none;
 }
 a:active {
-	color:#A53388;
+	color:transparent;
 	left:50px;
 	transition-duration: 1s;
 	text-decoration: none;
 }
+
 .number {
-	color: white;
+	position: relative;
+	top: 20%;
+	color: transparent;
 	font-size: 20px;
 	font-family: Helvetica;
-	left:0px;
-	overflow: hidden;
-	padding: 32px;
+	padding: 34px;
 	display: inline-block;
 	top:30%;
 	z-index:2;
+	display: inline-block;
+	float: left;
+	transition-duration: 2s;
+}
+.number:hover {
+	color: white;
 }
 
 
