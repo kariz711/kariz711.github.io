@@ -5,6 +5,45 @@ body {
 body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat820.cur), progress !important;} 
 /* End http://www.cursors-4u.com */
 
+
+h1 {
+font-size: 90px;
+margin: 5px;
+font-family: helvetica;
+  opacity: 0.7;
+  animation-name: color-change;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes color-change {
+  0% {
+    color: #3144F6;
+
+  }
+  25% {
+    color: #FF05EF;
+
+  }
+  50% {
+    color: #FDFF91;
+
+
+  }
+  75% {
+    color: #75FF1B;
+
+
+  }
+  100% {
+    color: #3144F6;
+
+
+  }
+}
+
 video#shia { 
     position: fixed;
     top: 50%;
