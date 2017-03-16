@@ -1,0 +1,86 @@
+body {
+	background-color: black;
+}
+
+
+video#shia { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(shiascreen_1.mov) repeat;
+    background-size: cover; 
+}
+
+.music {
+	z-index: -10;
+	opacity: .7;
+	margin-top: 40px;
+}
+
+.l1 {
+	font-size: 100px;
+	opacity: .7;
+	font-family: helvetica;
+	color:white;
+}
+
+.l1.time1 {
+	color: black;
+}
+.l1.time2 {
+	color: pink;
+}
+
+/*h2 {
+	background-color: yellow;
+	font-size: 175px;
+	color:pink;
+}
+
+h3 {
+	background-color: lightgreen;
+	font-size:  150px;
+	font-family: courier;
+	text-decoration-line: pink;
+	color: orange;
+}
+*/
+
+#lyric {
+	font-family: helvetica;
+
+}
+
+@keyframes moveLyric {
+  from { 1 }
+  to {10000}
+}
+
+.shia {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+}
+
+.shia:focus {
+	height: 50%;
+	width: 50%;
+}
+
+.square {
+	background-color: orange;
+	height: 200px;
+	width: 200px;
+	border-radius: 30px;
+
+}
