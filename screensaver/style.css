@@ -1,7 +1,9 @@
 body {
 	background-color: black;
 }
-
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat820.cur), progress !important;} 
+/* End http://www.cursors-4u.com */
 
 video#shia { 
     position: fixed;
@@ -19,6 +21,11 @@ video#shia {
     background: url(shiascreen_1.mov) repeat;
     background-size: cover; 
 }
+.link {
+	font-family: helvetica;
+	font-size: 20px;
+	color: white;
+}
 
 .music {
 	z-index: -10;
@@ -33,11 +40,16 @@ video#shia {
 	color:white;
 }
 
-.l1.time1 {
-	color: black;
-}
-.l1.time2 {
-	color: pink;
+p {
+	font-size: 30px;
+	color: navy;
+	font-family: helvetica;
+	margin: 10%;
+	background-color: white;
+	opacity: .7;
+	text-align: justify;
+
+
 }
 
 /*h2 {
