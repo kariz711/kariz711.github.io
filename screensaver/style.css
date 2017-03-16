@@ -16,7 +16,9 @@ font-family: helvetica;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-
+h1:hover{
+	opacity: 1;
+}
 
 @keyframes color-change {
   0% {
