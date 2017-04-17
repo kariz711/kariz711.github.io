@@ -1,0 +1,143 @@
+@font-face {
+	font-family: "tnr";
+	src: url("TimesNewRamen-Regular.ttf");
+}
+
+body {
+	/*background-image: url(back1.jpg);*/
+	font-family: "tnr";
+	will-change:opacity;
+	cursor: crosshair;
+/*	transform:translateZ(0);*/
+
+}
+/* unvisited link */
+a:link {
+    color: navy;
+    text-decoration: none;
+    	cursor: alias;
+}
+
+/* visited link */
+a:visited {
+    color: navy;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: navy;
+    text-decoration: none;
+}
+
+
+
+
+.back {
+	margin: 0px;
+	z-index:-100;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	mix-blend-mode: multiply;
+	width: 100vw;
+/*	animation-name: back-reveal;*/
+	animation-duration: 30s;
+	  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes back-reveal {
+  0% {
+    opacity: 0;
+
+  }
+  25% {
+  	opacity: 1;
+
+  }
+  50% {
+ opacity: 0;
+
+  }
+  75% {
+opacity: 1;
+
+
+  }
+  100% {
+opacity: 0;
+
+  }
+}
+
+.figure {
+	height: 50px;
+	mix-blend-mode: difference;
+	z-index: -50;
+/*	display: none;*/
+}
+.ten {
+	font-size: 120px;
+	color: green;
+	bottom: 10px;
+	right: 50px;
+}
+h1 {
+	z-index: 0;
+	font-family: "tnr";
+	color: navy;
+	font-size: 7vw;
+	position: fixed;
+	top: -30px;
+	left: 50px;
+	mix-blend-mode: multiply;
+	line-height: 150px;
+	cursor: crosshair;
+}
+.button {
+  position: relative;
+/*  background-image: url("10.jpg");*/
+  cursor: cell;
+  transition: all 0.5s linear;
+  text-overflow: none;
+
+}
+
+.active {
+  position: relative;
+  background-image: url("10.jpg");
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+}
+h2 {
+	mix-blend-mode: multiply;
+	z-index: 2;
+	color: navy;
+	font-size: 5vw;
+	left: 50px;
+	position: fixed;
+	top:300px;
+}
+p {
+
+	z-index: 2;
+	color: navy;
+	font-size: 5vw;
+	position: fixed;
+	top: 400px;
+	margin: 50px;
+	line-height: 100px;
+	  cursor: crosshair;
+	  mix-blend-mode: multiply;
+
+}
+
+

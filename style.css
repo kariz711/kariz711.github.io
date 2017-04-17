@@ -1,5 +1,9 @@
 /* unvisited link */
 
+body {
+    font-family: helvetica;
+/*        background-image: url(sign.jpg);*/
+}
 a:link {
 	color: black;
     text-decoration: none;
@@ -28,12 +32,21 @@ a:active {
     margin: 100px 50px 0px 300px;
     padding:10px;
 }*/
-
-
+.back {
+    margin: 0px;
+    z-index:-100;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    mix-blend-mode: multiply;
+    width: 100vw;
+    height: 100vw;
+}
 .container {
   width:100vw;
   margin-left: 5vw;
   margin-top: 100px;
+  cursor: crosshair;
 }
 .column {
   width:20vw;
@@ -121,7 +134,7 @@ h3 {
     width:30px;
     height:330px;
     font-size:20px;
-    background-color:#62FF2C;
+    background-color:#1017FF;
     opacity: .3;
     transition:0.5s;
     font-family:Helvetica,sans-serif;
@@ -132,6 +145,33 @@ h3 {
 
 }
 h3:hover {
+    opacity: 1;
+    transition: 0.5s;
+    font-family:Helvetica,sans-serif;
+    color: white;
+    letter-spacing: 3px;
+
+
+}
+h4 {
+    position: fixed;
+    text-align: center;
+    text-overflow: hidden;
+    width:30px;
+    height:140px;
+    font-size:20px;
+    background-color:#1017FF;
+    opacity: .3;
+    transition:0.5s;
+    font-family:Helvetica,sans-serif;
+    color:white;
+    letter-spacing: 3px;
+    padding:0px 0px 7px 5px;
+    margin:10px 0px 0px 0px;
+    right: 10px;
+
+}
+h4:hover {
     opacity: 1;
     transition: 0.5s;
     font-family:Helvetica,sans-serif;
@@ -160,12 +200,14 @@ h3:hover {
 }
 .bio:hover {
 	opacity: 1;
-	color: #62FF2C;
+	color: #1017FF;
 	top: 150px;
     right: 40px;
     width:600px;
     height:100px;
-    font-size:30px;
+    font-size:28px;
+    font-weight: bold;
+    cursor: crosshair;
  }
 
 .full {
@@ -182,18 +224,20 @@ h3:hover {
     letter-spacing: 3px;
     padding:5px 7px 0px 0px;
     margin:10px 0px 0px 50px;
+    cursor: crosshair;
 
     
 }
 .full:hover {
     width:20%;
     transition: 0.5s;
-    background-color:#62FF2C;
+    background-color:#1017FF;
     font-family:Helvetica,sans-serif;
     text-align: right;
     color: white;
     font-style: oblique;
     letter-spacing: 3px;
+
 
 }
 .bottom {
