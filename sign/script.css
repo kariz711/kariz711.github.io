@@ -22,12 +22,15 @@ a:link {
 a:visited {
     color: navy;
     text-decoration: none;
+
 }
 
 /* mouse over link */
 a:hover {
-    color: black;
-    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    
 }
 
 /* selected link */
@@ -47,15 +50,15 @@ a:active {
 	position: fixed;
 	mix-blend-mode: multiply;
 	width: 100vw;
-/*	animation-name: back-reveal;*/
-	animation-duration: 30s;
+	animation-name: back-reveal;
+	animation-duration: 20s;
 	  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 
 @keyframes back-reveal {
   0% {
-    opacity: 0;
+    opacity: 0.7;
 
   }
   25% {
@@ -63,16 +66,20 @@ a:active {
 
   }
   50% {
- opacity: 0;
+ opacity: 0.4;
 
   }
   75% {
 opacity: 1;
+}
+90% {
+	opacity: 0.2
+
 
 
   }
   100% {
-opacity: 0;
+opacity: 0.7;
 
   }
 }
@@ -100,6 +107,7 @@ h1 {
 	mix-blend-mode: multiply;
 	line-height: 150px;
 	cursor: crosshair;
+
 }
 .button {
   position: relative;
@@ -113,6 +121,7 @@ h1 {
 .active {
   position: relative;
   background-image: url("10.jpg");
+  height: 120px;
   cursor: pointer;
   transition: all 0.5s linear;
 

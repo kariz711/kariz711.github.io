@@ -1,6 +1,7 @@
 function setup() {
 //gets done once
-	createCanvas(1500,800)
+	createCanvas(1946,2843)
+  console.log("work")
 }
 
 function draw() {
