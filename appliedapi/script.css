@@ -1,0 +1,19 @@
+body {
+	background-image: url("back.jpg")
+}
+.name {
+	font-family: helvetica;
+	font-size: 100px;
+	opacity: 0;
+	position: fixed;
+}
+.clicked {
+	font-family: helvetica;
+	font-size: 100px;
+	color: blue;
+	mix-blend-mode: multiply;
+	float: left;
+	opacity: 1;
+
+
+}
