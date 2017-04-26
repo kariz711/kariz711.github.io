@@ -1,0 +1,26 @@
+body {
+  background-color: red;
+}
+.dark {
+  background-color: lightblue;
+}
+img {
+  height: 100px;
+}
+.button {
+  position: relative;
+
+/*  background-image: url("duck.png");*/
+  cursor: crosshair;
+
+
+  transition: all 0.5s linear;
+}
+
+
+.active {
+/*  background-color: orange;
+  border: 5px solid yellow;*/
+  background-image: url("dead.png");
+/*  src: url("dead.png");*/
+}
