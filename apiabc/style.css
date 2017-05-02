@@ -1,0 +1,39 @@
+
+body {
+	background-color: red;
+	font-family: helvetica;
+}
+a:link {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 30px;
+
+    
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightblue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+h1 {
+	font-size: 200px;
+	color: white;
+	line-height: 0px;
+
+}
+p {
+	font-size: 30px;
+	color: yellow;
+
+}
