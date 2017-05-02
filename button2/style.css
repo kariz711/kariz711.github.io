@@ -1,0 +1,25 @@
+
+@font-face {
+	font-family: "child";
+	src: url("Child_Serial_Killer.ttf");
+}
+body {
+	background-image: url("wood.jpg")
+}
+
+.ok {
+	display: block;
+	height: 200px;
+	width: 200px;
+	background-color: #FFB623;
+    float: left;
+    margin: 10px;
+    font-size: 0px;
+
+    font-family: "child";
+}
+.active {
+	font-size: 60px;
+	line-height: 35px;
+	hyphens: auto;
+}
