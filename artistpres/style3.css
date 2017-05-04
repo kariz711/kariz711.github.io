@@ -1,3 +1,40 @@
+@font-face {
+	font-family: "vcr";
+	src: url("vcr.ttf");
+}
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: blue;
+    font-family: "vcr";
+    position: fixed;
+    top: 88%;
+    left: 65%;
+    font-size: 20px;
+
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: blue;
+
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: white;
+            -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+    font-family: "vcr";
+
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
+}
 h3 {
 	position: fixed;
 	font-family: helvetica;
@@ -13,6 +50,10 @@ h3 {
 h3:hover {
 	opacity: 1;
 	filter: blur(0px);
+}
+p {
+	font-family: "vcr"
+	font-size:20px;
 }
 img {
 	position: fixed;
