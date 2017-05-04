@@ -63,6 +63,7 @@ img {
 	left: 83%;
 	opacity: .3;
 	transition-duration: .5s;
+	filter: blur(0px);
 
 }
 img:hover {
