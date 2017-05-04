@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "vcr";
+    src: url("vcr.ttf");
+}
+body {
+	background-image: url("heba.jpg");
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: blue;
+
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
+}
+h2 {
+	font-family: helvetica;
+	font-size: 23.5px;
+	margin: 20px;
+	width: 42%;
+	line-height: 30px;
+}
+h3 {
+	position: relative;
+	font-family: helvetica;
+	top: 170px;
+	left: 300px;
+	width: 300px;
+	font-size: 15px;
+	opacity: .1;
+	transition-duration: .2s;
+	filter: blur(3px);
+
+}
+h3:hover {
+	opacity: 1;
+	filter: blur(0px);
+}
+
+img {
+	position: fixed;
+	height: 70px;
+	width: auto;
+	top: 85%;
+	left: 87%;
+		filter: sepia(100%);
+	/*transition-duration: .5s;*/
+
+}
+img:hover {
+	filter: sepia(0%);
+}

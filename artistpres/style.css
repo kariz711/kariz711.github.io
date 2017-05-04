@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "vcr";
+    src: url("vcr.ttf");
+}
+body {
+    background-image: url("noise1.gif");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: white;
+
+        -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    font-family: "vcr";
+        position: relative;
+        float: left;
+        left: 55%;
+    top: 350px;
+    font-family: "vcr";
+    line-height: 60px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+li {
+    text-decoration: none;
+}
+h1 {
+	mix-blend-mode: multiply;
+	color: white;
+	font-family: "vcr";
+	font-size: 60px;
+	margin-left: 40px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+/*	text-align: center;*/
+}
+.pic {
+    position: fixed;
+    mix-blend-mode: darken;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+    z-index: -50;
+
+}
+.hover {
+    float: left;
+
+}
+.noise {
+    mix-blend-mode: multiply;
+
+}
+h2 {
+    position: fixed;
+    top: 500px;
+    font-family: "vcr";
+    left: 55vw;
+    line-height: 60px;
+    font-size: 40px;
+    padding: 10px;
+}

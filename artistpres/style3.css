@@ -1,0 +1,29 @@
+h3 {
+	position: fixed;
+	font-family: helvetica;
+	top: 30px;
+	left: 65%;
+	width: 330px;
+	font-size: 25px;
+	opacity: .2;
+	transition-duration: .2s;
+	filter: blur(1px);
+
+}
+h3:hover {
+	opacity: 1;
+	filter: blur(0px);
+}
+img {
+	position: fixed;
+	height: 70px;
+	width: auto;
+	top: 83%;
+	left: 83%;
+	opacity: .3;
+	transition-duration: .5s;
+
+}
+img:hover {
+	opacity: 1;
+}
