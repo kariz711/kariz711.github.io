@@ -58,6 +58,7 @@ p {
 	position: relative;
 	height: 100px;
 	opacity: 1;
+	transition-duration: .2s;
 /*	filter: grayscale(100);*/
 }
 .block:hover {
