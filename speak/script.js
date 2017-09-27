@@ -1,19 +1,19 @@
 $(document).ready(function() {
-	console.log("1");
+// 	console.log("1");
 
-var movementStrength = 100;
-var height = movementStrength / $(window).height();
-var width = movementStrength / $(window).width();
+// var movementStrength = 100;
+// var height = movementStrength / $(window).height();
+// var width = movementStrength / $(window).width();
 
 
-$(".audioimg").mousemove(function(e){
-	console.log("2");
-          var pageX = e.pageX - ($(window).width() / 2);
-          var pageY = e.pageY - ($(window).height() / 2);
-          var newvalueX = width * pageX * -1 - 25;
-          var newvalueY = height * pageY * -1 - 50;
-          $('audioimg').css("background-position", newvalueX+"px     "+newvalueY+"px");
-});
+// $(".audioimg").mousemove(function(e){
+// 	console.log("2");
+//           var pageX = e.pageX - ($(window).width() / 2);
+//           var pageY = e.pageY - ($(window).height() / 2);
+//           var newvalueX = width * pageX * -1 - 25;
+//           var newvalueY = height * pageY * -1 - 50;
+//           $('audioimg').css("background-position", newvalueX+"px     "+newvalueY+"px");
+// });
 
 
 // $(".fabricrip").on("click", function() {
@@ -39,10 +39,6 @@ $(function(){
     		$('.texture2').data("okshadow").setoption({
   			"color": "black",
 });
-
-
- });
-
 
 
 });	

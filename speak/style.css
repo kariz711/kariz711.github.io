@@ -36,7 +36,26 @@ a:hover {
 	position: fixed;
 	mix-blend-mode: darken;
 }
-
+.wrap5 {
+	position: fixed;
+	height: 70px;
+	width: 400px;
+	bottom:20px;
+	left: 650px;
+	letter-spacing: -4px;
+	font-size: 20px;
+	line-height: 10px;
+	text-align: right;
+	transition-duration: 2s;
+}
+.wrap5:hover {
+	line-height: 20px;
+	left: 270px;
+	bottom:40px;
+	width: 650px;
+	letter-spacing: 0px;
+	transition-duration: 2s;
+}
 
 p {
 	line-height: 7px;
@@ -126,9 +145,11 @@ h2 {
 	top: 200px;
 	right: 0px;
 	transition-duration: 2s;
+	width: 350px;
 }
 .audioimg:hover {
 	top: 300px;
+	width: 780px;
 	transition-duration: 2s;
 	position: fixed;
 }
