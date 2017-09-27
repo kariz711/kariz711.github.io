@@ -4,16 +4,55 @@ a:hover {
 
 .wrap {
 	position: fixed;
-	width: 80%;
-	height: 60%;
+	width: 550px;
+	height: 550px;
 	top: 300px;
 	left: 200px;
+}
+
+.wrap2 {
+	height: 300px;
+	width: 300px;
+	top: 35px;
+	left: 560px;
+	position: fixed;
+
+}
+
+.wrap3 {
+	width: 400px;
+	height: 1000px;
+	margin-bottom: -10px;
+	right: -10px;
+	position: fixed;
+		mix-blend-mode: darken;
+}
+
+.wrap4 {
+	width: 300px;
+	height: 1000px;
+	top: 100px;
+	right: 0px;
+	position: fixed;
+	mix-blend-mode: darken;
+}
+
+
+p {
+	line-height: 7px;
+	font-size: 25px;
+	transition-duration: 1s;
+
+}
+p:hover {
+	line-height: 17px;
 }
 .texture {
 	height: 500%;
 	z-index: -500;
 	margin-top: -40px;
 	margin-left: -10px; 
+	margin-bottom: -30px;
 
 }
 .texture2 {
@@ -31,7 +70,7 @@ a:hover {
 	top: 70px;
 	left: -150px;
 	transition-duration: 1s;
-	mix-blend-mode: lighten;
+	mix-blend-mode: screen;
 }
 .fabricrip:hover {
 	width: 210px;
@@ -45,8 +84,8 @@ a:hover {
 }
 .rip {
 	position: relative;
-	left: -440px;
-	top: 30px;
+	left: 60px;
+	top: -30px;
 }
 
 .riso{
@@ -55,7 +94,13 @@ a:hover {
 	bottom:-10px;
 	right: -10px;
 	z-index: 100;
-	mix-blend-mode: color-burn;
+	mix-blend-mode: screen;
+	transition-duration: 1s;
+}
+.riso:hover {
+	filter: contrast(250%);
+	transition-duration: 1s;
+	mix-blend-mode: none;
 }
 
 h1 {
@@ -72,14 +117,18 @@ h2 {
 }
 
 
-/*#top-image {
-background:url("3.jpg") -25px -50px;
-position:fixed ;
-mix-blend-mode: overlay;
-top:-5px;
-left: -5px;
-width:120%;
-z-index:0;
-  height:100%;
-  background-size: calc(100% + 50px);
-}*/
+.rain {
+	top: -200px;
+	left: 0px;
+
+}
+.audioimg {
+	top: 200px;
+	right: 0px;
+	transition-duration: 2s;
+}
+.audioimg:hover {
+	top: 300px;
+	transition-duration: 2s;
+	position: fixed;
+}
