@@ -6,6 +6,10 @@
     font-family: Gridnik;
     src: url("Gridnik.ttf") format("opentype");
 }
+@font-face {
+	font-family: attic;
+	src:url("Times Old Attic.TTF") format("opentype");
+}
 h1 {
 	color: purple;
 	font-size: 100px;
@@ -27,7 +31,7 @@ h2 {
 h3 {
 	position: fixed;
 	top: 20px;
-	left: 100px;
+	left: 250px;
 	color: red;
 	font-size: 127%;
 	font-family: times;
@@ -197,23 +201,30 @@ filter: brightness(1.0);
 }
 
 .text {
+	position: fixed;
 	width: 110%;
-	height: 110%;
+	height: 700px;
 	top: -10px;
 	left: -10px;
-	z-index: -50;
+	z-index: -100;
+	mix-blend-mode: multiply;
 
 }
-.font {
+.box {
 	position: fixed;
-	opacity: 0.6;
-	width: 50%;
-	height: 60%;
+	width: 300px;
+	height: 250px;
 	background-color: blue;
 	mix-blend-mode: multiply;
-	z-index: 20;
-	top: 20%;
-	left: 20%;
+	z-index: 0;
+	top: 20px;
+	left: 50px;
+	transition-duration: 3s;
+}
+.box:hover {
+	width: 800px;
+	height: 100px;
+	background-color: yellow;
 }
 .pl {
 	width: 100px;
@@ -233,7 +244,7 @@ filter: brightness(1.0);
 	filter: brightness(1.1);
 }
 .dropimg {
-	width: 45%;
+	width: 30%;
 	height: 110%;
 	top: -10px;
 	right: -10px;
@@ -257,7 +268,7 @@ filter: brightness(1.0);
 
 }
 .greendot:hover {
-	height: 260px;
+	height: 500px;
 	background-color: red;
 }
 
@@ -268,4 +279,192 @@ filter: brightness(1.0);
 	top: 0px;
 	right: 0px;
 	mix-blend-mode: multiply;
+}
+
+.cite {
+	color: green;
+	font-family: 'Gridnik';
+	font-size: 30px;
+	line-height: 30px;
+	position: fixed;
+	bottom:50px;
+	left: 30px;
+	width: 30px;
+
+
+}
+.para1 {
+	width: 50%;
+	top: 0px;
+	right: 20px;
+	position: fixed;
+	font-size: 20px;
+	font-family: helvetica;
+	transition-duration: 2s;
+}
+.para1:hover {
+	background-color: white;
+}
+
+.rami {
+	transform: rotate(90deg);
+	width: 500px;
+	position: fixed;
+	top: 100px;
+	left: 40px;
+	mix-blend-mode: multiply;
+	transition-duration: 2s;
+}
+.rami:hover {
+	width: 650px;
+	left: 20px;
+	top: 200px;
+}
+.ramitext {
+	color: black;
+	font-family: helvetica;
+	font-size: 20px;
+	position: fixed;
+	top: 140px;
+	left: 50px;
+	transform: rotate(-90deg);
+	transition-duration: 0.5s;
+}
+.ramitext:hover {
+	color: white;
+	font-family: helvetica-bold;
+	font-size: 30px;
+	left: 10px;
+	top: 170px;
+}
+.fractal {
+	top: 40px;
+	left: 40px;
+	width: 500px;
+	position: relative;
+	z-index: -5;
+}
+.fractal2 {
+	z-index: -10;
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	height: 100%;
+}
+.valuehed {
+	position: fixed;
+	width: 50px;
+	height: 200px;
+	line-height: 30px;
+	bottom: 70px;
+	left: 20px;
+	font-family: 'Gridnik';
+	font-size: 50px;
+	transition-duration: 2s;
+}
+.valuehed:hover {
+	font-size: 80px;
+
+}
+.by {
+	position: fixed;
+	bottom: 50px;
+	left: 200px;
+	font-family: 'pixel';
+	font-size: 40px;
+	color: orange;
+}
+
+
+
+.sub {
+	font-family: 'pixel';
+	font-size: 40px;
+	color: blue;
+}
+
+.para2 {
+	position: fixed;
+	font-size: 20px;
+}
+.para3 {
+	position: fixed;
+	line-height: 5px;
+	font-size: 60px;
+	color: orange;
+	transition-duration: 3s;
+}
+.para3:hover {
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'attic';
+	color: black;
+
+}
+.sock3 {
+	width: 300px; 
+	bottom:50px; 
+	right: 50px;
+	position: fixed;
+	transform: skewY(-10deg);
+	transition-duration: 2s;
+	filter: contrast(1);
+
+}
+.sock3:hover {
+	transform: skewY(10deg);
+	filter: contrast(10);
+}
+
+.pee {
+	width: 200px; 
+	position: fixed;
+	right: 100px;
+	top: 70px;
+	transform: skewX(20deg);
+	transition-duration: 2s;
+	filter: contrast(10);
+}
+
+.pee:hover {
+	transform: skewX(-5deg);
+	filter: none;
+	width: 250px;
+	mix-blend-mode: screen;
+
+}
+.backarticle3 {
+	position: fixed;
+	transform: rotate(90deg);
+	z-index: -100;
+	top: -700px;
+	left: -10px;
+	filter: hue-rotate(50deg);
+	width: 1700px;
+	transition-duration: 4s;
+}
+.backarticle3:hover {
+	filter: hue-rotate(130deg);
+
+}
+
+
+.glitch {
+	position: fixed;
+	bottom:-10px;
+	right: -20px;
+	width: 800px;
+	height: 200px;
+	z-index: -50;
+	transition-duration: 2s;
+	filter: blur(2px);
+}
+.glitch:hover {
+	height: 900px;
+	filter: blur(0px);
+	mix-blend-mode: multiply;
+
+}
+.backtext {
+
 }
