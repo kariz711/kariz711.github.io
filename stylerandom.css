@@ -6,6 +6,10 @@
     font-family: Gridnik;
     src: url("Gridnik.ttf") format("opentype");
 }
+@font-face {
+	font-family: attic;
+	src:url("Times Old Attic.TTF") format("opentype");
+}
 h1 {
 	color: purple;
 	font-size: 100px;
@@ -280,5 +284,95 @@ filter: brightness(1.0);
 	left: 30px;
 	width: 30px;
 
+
+}
+.para1 {
+	width: 50%;
+	top: 0px;
+	right: 20px;
+	position: fixed;
+	font-size: 20px;
+	font-family: helvetica;
+	transition-duration: 2s;
+}
+.para1:hover {
+	background-color: white;
+}
+
+.rami {
+	transform: rotate(90deg);
+	width: 500px;
+	position: fixed;
+	top: 100px;
+	left: 40px;
+	mix-blend-mode: multiply;
+	transition-duration: 2s;
+}
+.rami:hover {
+	width: 650px;
+	left: 20px;
+	top: 200px;
+}
+.fractal {
+	top: 40px;
+	left: 40px;
+	width: 500px;
+	position: relative;
+	z-index: -5;
+}
+.fractal2 {
+	z-index: -10;
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	height: 100%;
+}
+.valuehed {
+	position: fixed;
+	width: 50px;
+	height: 200px;
+	line-height: 30px;
+	bottom: 70px;
+	left: 20px;
+	font-family: 'Gridnik';
+	font-size: 50px;
+	transition-duration: 2s;
+}
+.valuehed:hover {
+	font-size: 80px;
+
+}
+.by {
+	position: fixed;
+	bottom: 50px;
+	left: 200px;
+	font-family: 'pixel';
+	font-size: 40px;
+	color: orange;
+}
+
+
+
+.sub {
+	font-family: 'pixel';
+	font-size: 40px;
+	color: blue;
+}
+
+.para2 {
+	position: fixed;
+	font-size: 20px;
+}
+.para3 {
+	line-height: 5px;
+	font-size: 60px;
+	color: orange;
+	transition-duration: 3s;
+}
+.para3:hover {
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'attic';
+	color: black;
 
 }
