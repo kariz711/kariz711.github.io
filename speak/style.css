@@ -153,3 +153,11 @@ h2 {
 	transition-duration: 2s;
 	position: fixed;
 }
+
+
+.randomfloat {
+	top: 200px;
+	left: 200px;
+	height: 200px;
+
+}
