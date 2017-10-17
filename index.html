@@ -1,22 +1,85 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script language="javascript" type="text/javascript" src="okshadow-master/src/okshadow.js"></script>
-	<script src="script.js"></script>
-	<title>Speak Dict</title>
-</head>
-<body>
-<h1>
-<a href="intuition.html">intuition</a>
-</h1>
-<h1>
-<a href="texture.html">texture</a>
-</h1>
-<h1>
-<a href="random.html">random</a>
-</h1>
 
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>sock</title>
+
+	<link rel='stylesheet' href='testshadow.css'>
+	
+	<script>
+
+		$(function() {
+
+			var originalBGplaypen = $("#playpen").css("background-color"),
+			    x, y, xy, bgWebKit, bgMoz,
+			    lightColor = "white",
+			    gradientSize = 150;
+
+				// Basic Demo
+				$('#playpen').mousemove(function(e) {
+
+					x  = e.pageX - this.offsetLeft;
+					y  = e.pageY - this.offsetTop;
+					xy = x + " " + y;
+
+					bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", " + gradientSize + ", from(" + lightColor + "), to(rgba(655,0,155,0.0))), " + originalBGplaypen;
+					bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 0%, " + originalBGplaypen + " " + gradientSize + "10px)";
+
+					$(this)
+						.css({ background: bgWebKit })
+						.css({ background: bgMoz });
+
+				}).mouseleave(function() {
+					$(this).css({ background: originalBGplaypen });
+				});
+
+
+
+
+				var originalBG = $(".nav a").css("background-color");
+
+				$('.nav li:not(".active") a')
+				.mousemove(function(e) {
+
+					   x  = e.pageX - this.offsetLeft;
+					   y  = e.pageY - this.offsetTop;
+					   xy = x + " " + y;
+
+				       bgWebKit = "-webkit-gradient(radial, " + xy + ", 0, " + xy + ", 100, from(rgba(255,25,255,0.8)), to(rgba(255,255,55,0.0))), " + originalBG;
+					   bgMoz    = "-moz-radial-gradient(" + x + "px " + y + "px 45deg, circle, " + lightColor + " 10%, " + originalBG + " " + gradientSize + "px)";
+
+						$(this)
+							.css({ background: bgWebKit })
+							.css({ background: bgMoz });
+
+
+				}).mouseleave(function() {
+					$(this).css({ background: originalBG });
+				});
+
+		});
+	</script>
+</head>
+
+<body>
+		<div id="playpen"></div>
+		<a href="moodcollect.html">
+			<img src="swirl.jpeg" class="swirl">
+			</a>
+
+			<a href="random.html">
+				<img src="bloom.gif" class="bloom">
+			</a>
+
+
+			<a href="texture.html">
+				<img src="purpletexture.png" class="purple">
+			</a>
+
+</style>
 </body>
+
 </html>
