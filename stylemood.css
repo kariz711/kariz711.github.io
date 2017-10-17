@@ -1,0 +1,186 @@
+a:hover {
+    font-style: italic;
+}
+@font-face {
+    font-family: pixel;
+    src: url("PixelComicSans-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Gridnik;
+    src: url("Gridnik.ttf") format("opentype");
+}
+@font-face {
+	font-family: attic;
+	src:url("Times Old Attic.TTF") format("opentype");
+}
+
+p {
+	color: white;
+	font-family: "Gridnik";
+	font-size: 20px;
+	position: fixed;
+	top: 10px;
+	transition-duration: 1s;
+	z-index: 100;
+
+}
+
+.moon {
+	position: fixed;
+	top: 200px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	z-index: 30;
+	background-color: yellow;
+	mix-blend-mode: multiply;
+	transition-duration: 3s;
+
+}
+.moon:hover {
+	position: fixed;
+	top: 170px;
+	left: 250px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	mix-blend-mode: normal;
+	background-color: orange;
+}
+.wave {
+	position: fixed;
+	z-index: -20;
+	 height: 800px;
+	 width: 1600px; 
+	 top: -20px; 
+	 right: 0px;
+	 mix-blend-mode: multiply;
+	 transition-duration: 2s;
+}
+.wave:hover {
+	height: 700px;
+
+}
+
+.mood1 {
+	width: 200px;
+	position: fixed;
+	z-index: 20;
+	bottom:200px;
+	right: 300px;
+	mix-blend-mode: screen;
+	transition-duration: 2s;
+	filter: contrast(1);
+}
+.mood1:hover {
+filter: contrast(10);
+width: 300px;
+bottom:100px;
+}
+
+
+
+.moodcollect {
+	width: 300px;
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+		filter: blur(3px);
+	transition-duration: 2s;
+	
+
+}
+.moodcollect:hover {
+	filter: blur(0px);
+}
+
+.moodcollectlong {
+	height: 300px;
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+	filter: blur(3px);
+	transition-duration: 2s;
+	
+}
+
+.moodcollectlong:hover {
+	filter: blur(0px);
+
+}
+
+
+.randomsock {
+	width: 100px;
+	float: right;
+	transform: rotate(-20deg);
+	opacity: .2;
+	transition-duration: 2s;
+	filter: contrast(17);
+}
+.randomsock:hover {
+	opacity: 1;
+	filter: contrast(1.3);
+	transform: rotate(-50deg);
+}
+
+
+
+.mood2-hov {
+	background-image: none;
+	height: 200px;
+	width: 400px;
+	z-index: 50;
+}
+
+.mood2-hov:hover {
+	background-image: url("mood2img.jpg");
+
+}
+
+
+.moodimg {
+	top: -10px;
+	left: -10px;
+	height:110%;
+	position: fixed;
+
+}
+
+.memeback {
+	transform: rotate(90deg);
+	height: 1300px;
+	position: fixed;
+	z-index: -100;
+	top: -330px;
+	left: 250px;
+	filter: hue-rotate(150deg);
+}
+
+
+.back {
+	position: fixed;
+	top: -10px;
+	left: 10px;
+	width: 110%;
+	mix-blend-mode: multiply;
+	z-index: -70;
+}
+
+.loop {
+	width: 300px;
+	position: fixed;
+	top: 200px;
+	right: 200px;
+	z-index: -80;
+}
+
+.loop2 {
+	width: 300px;
+	opacity: 0;
+	position: fixed;
+	top: 200px;
+	right: 200px;
+	z-index: 0;
+}
