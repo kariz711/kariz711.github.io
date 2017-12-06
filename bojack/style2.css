@@ -1,0 +1,333 @@
+
+
+.speaker {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+
+	span {
+		display: block;
+		width: 8px;
+		height: 8px;
+		background: #fff;
+		margin: 11px 0 0 2px;
+
+		&:after {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-color: transparent #fff transparent transparent;
+			border-width: 10px 14px 10px 15px;
+			left: -13px;
+			top: 5px;
+		}
+
+		&:before {
+			transform: rotate(45deg);
+			border-radius: 0 50px 0 0;
+			content: '';
+			position: absolute;
+			width: 5px;
+			height: 5px;
+			border-style: double;
+			border-color: #fff;
+			border-width: 7px 7px 0 0;
+			left: 18px;
+			top: 9px;
+			transition: all 0.2s ease-out;
+		}
+	}
+
+	&:hover {
+
+		span:before {
+			transform: scale(.8) translate(-3px, 0) rotate(42deg);		
+    }
+	}
+  
+  &.mute {
+    span:before {
+			transform: scale(.5) translate(-15px, 0) rotate(36deg);
+      opacity: 0;
+    }
+  }
+}
+
+
+
+
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@keyframes bob {
+    0% {
+
+        transform: rotate(100deg);
+
+
+    }
+    100% {
+
+    	 transform: rotate(0deg);
+    }
+}
+
+@keyframes move {
+    0% {
+        margin-top: 5px;
+        margin-left: 2px;
+        transform: rotate(0deg);
+    }
+    25% {
+    	margin-top: 10px;
+    	margin-left: -5px;
+    	  	transform: rotate(5deg)
+    }
+    50% {
+    	margin-top: 0px;
+    	margin-left: 20px;
+    	transform: rotate(-7deg)
+
+    }
+    75% {
+        margin-top: -10px;
+        margin-left: -6px
+      transform: rotate(4deg)
+
+    }
+    100% {
+    	margin-left: 5px;
+    	margin-top: 2px; 
+    	 transform: rotate(0deg)
+
+  ;
+    }
+}
+
+@font-face
+{
+	    font-family: o;
+    src: url(ostrich.otf);
+}
+@font-face {
+	font-family: prestige;
+	src: url(PrestigeElite.otf);
+}
+
+@font-face {
+	font-family: h;
+	src: url(Haymaker.ttf);
+}
+.intro {
+/*	position: fixed;
+	top:0px;
+	left: 0px;
+	height: 100%;
+	z-index: -50;
+	object-fit: fill;
+	overflow:hidden;*/
+
+	 position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+/*    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);*/
+    transform: translateX(-50%) translateY(-50%);
+/*    background: url(intro.mp4) no-repeat;
+*/    background-size: cover; 
+}
+
+h1 {
+		margin-top: 70px;
+	left: 15px;
+	position: fixed;
+	font-size: 110px;
+	letter-spacing: 0px;
+	font-family: "h";
+	color:white;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	transition-duration: 1s;
+}
+h1:hover {
+	letter-spacing: 1px;
+}
+h2 {
+	margin-top: 0px;
+	left: 30px;
+	position: fixed;
+	font-size: 60px;
+	letter-spacing: 2px;
+	font-family: "o";
+	color:white;
+	cursor: default;
+
+}
+p {
+	position: fixed;
+	margin-top: 200px;
+	left: 250px;
+	color: purple;
+	font-size: 20px;
+	width: 250px;
+	line-height: 20px;
+	font-family: "prestige";
+}
+
+p:hover {
+	color: white;
+}
+.website {
+		position: fixed;
+	bottom: 15px;
+	right: 120px;
+	color: purple;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "prestige";
+
+}
+.website:hover {
+	color: white;
+}
+
+
+.bubble{
+	height: 100px;
+	position: fixed;
+	top:200px;
+	left: 70px;
+	-webkit-animation: move 5s linear infinite;
+
+}
+.head {
+	height: 100px;
+	position: fixed;
+	top: 350px;
+	left: 300px;
+	transition-duration: 1s;
+		transform: rotate(-10deg);
+		opacity: .6;
+
+
+}
+.head:hover {
+	filter: saturate(0);
+	transform: rotate(10deg);
+	opacity: 1;
+}
+
+
+
+.toddimg {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	height: 260px;
+	transition-duration: 0.2s;
+
+
+}
+.toddimg:hover {
+	height: 265px;
+	filter: drop-shadow(5px 5px 7px red);
+}
+
+.drugs {
+	position: fixed;
+	height: 250px;
+	bottom: 50px;
+	left: 50px;
+	filter: hue-rotate(360deg);
+	transform: rotate(10deg);
+	transition-duration: 10s;
+}
+.drugs:hover {
+	filter: hue-rotate(0deg);
+		transform: rotate(0deg);
+
+}
+
+.pc {
+
+	height: 270px;
+	position: fixed;
+	bottom: 150px;
+	right: 180px;
+	transition-duration: 0.2s;
+}
+.pc:hover {
+	filter: drop-shadow(-5px -5px 7px hotpink);
+	height: 273px;
+}
+
+.apple {
+	height: 70px;
+	position: fixed;
+	margin-top: 200px;
+	right: 30px;
+}
+
+
+.subvert {
+	position: fixed;
+	top: 370px;
+	right: -30px;
+	color: purple;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "prestige";
+	width: 200px;
+}
+
+.subvert:hover {
+
+}
+
+.gb {
+	position: fixed;
+	bottom: 60px;
+	right: 120px;
+	height: 80px;
+	transform: rotate(-10deg);
+	transition-duration: .2s;
+
+}
+
+.gb:hover {
+	transform: rotate(0deg);
+}
+
+
+.wtf {
+	position: fixed;
+	top: 200px;
+	right: 150px;
+	color: purple;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: "prestige";
+
+}
+
+
+
