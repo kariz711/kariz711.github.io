@@ -1,0 +1,44 @@
+a {
+	text-decoration: none;
+	color: black;
+	font-family: helvetica;
+}
+
+a:hover {
+	color: grey;
+}
+
+
+.word {
+	position: relative;
+	height: 220px;
+	overflow: hidden;
+}
+
+.center {
+	margin: 0 auto;
+	display: block;	
+	padding-top: 30px;
+		transform: rotate(0deg);
+	transition-duration: .5s;
+}
+
+.center:hover {
+	transform: rotate(5deg);
+
+}
+.vid {
+
+    display: block;
+    margin: 0 auto;
+    padding-top: 13%;
+    width: 60%;
+
+}
+
+
+.sign {
+	width: 100vw;
+	left: 10px;
+
+}
