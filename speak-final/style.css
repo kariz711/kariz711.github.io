@@ -8,7 +8,14 @@ a:hover {
 	color: grey;
 }
 
+h1 {
 
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+
+}
 .word {
 	position: relative;
 	height: 220px;
@@ -18,7 +25,7 @@ a:hover {
 .center {
 	margin: 0 auto;
 	display: block;	
-	padding-top: 30px;
+	padding-bottom: 30px;
 		transform: rotate(0deg);
 	transition-duration: .5s;
 }
@@ -31,7 +38,7 @@ a:hover {
 
     display: block;
     margin: 0 auto;
-    padding-top: 13%;
+    padding-top: 2%;
     width: 60%;
 
 }
